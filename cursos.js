@@ -30,7 +30,8 @@ function printCourses() {
     console.log('Los cursos ofrecidos son:');
     courses.forEach( course => {
         setTimeout(function print(){
-            console.log(course);
+            const printText = `El curso ${course.name} tiene una duración de ${course.duration} horas, cuesta ${course.price} y su id es el ${course.id}`;
+            console.log(printText);
         },time*2000);
         time++;
     });
