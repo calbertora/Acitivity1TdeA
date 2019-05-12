@@ -1,0 +1,14 @@
+{
+  "name": "entrega1",
+  "version": "1.0.0",
+  "description": "Entrega 1 del curso de NodeJS TdeA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "calbertora@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^13.2.2"
+  }
+}
